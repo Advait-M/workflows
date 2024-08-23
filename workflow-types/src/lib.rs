@@ -24,6 +24,8 @@ pub struct Workflow {
     pub author_url: Option<String>,
     #[serde(default)]
     pub shells: Vec<Shell>,
+    #[serde(default)]
+    pub is_ai: bool,
 }
 
 impl Workflow {
