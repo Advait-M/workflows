@@ -72,6 +72,7 @@ impl Workflow {
             author: None,
             author_url: None,
             shells: vec![],
+            is_ai: false,
         }
     }
 
